@@ -1,0 +1,23 @@
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 61px;
+  p {
+    z-index: 2;
+
+    width: 23.38%;
+    margin-left: 25px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Gilroy;
+    color: #242424;
+  }
+  img {
+    z-index: 2;
+  }
+}

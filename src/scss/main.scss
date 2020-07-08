@@ -1,0 +1,31 @@
+
+@import "./_normalize.scss";
+@import "./header.scss";
+
+body {
+  position: relative;
+
+  width: 100%;
+  max-width: 1920px;
+  height: 1024px;
+
+  background: url("../assets/images/image150.png") no-repeat center;
+  background-size: cover;
+}
+.content {
+  width: 988.24px;
+}
+
+.clouds-bkg {
+  position: absolute;
+  top: 0;
+  top: -370px;
+  left: 0;
+  z-index: 1;
+
+  width: 100%;
+  height: 825px;
+
+  background: url("../assets/images/Group272.png") no-repeat center;
+  background-size: cover;
+}
