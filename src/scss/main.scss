@@ -3,6 +3,7 @@
 @import "./header.scss";
 @import "./adventages.scss";
 @import "./fonts.scss";
+@import "./form.scss";
 
 body {
   position: relative;
@@ -63,4 +64,17 @@ body {
 
   background: url("../assets/images/image138.png") no-repeat center;
   background-size: cover;
+}
+.clouds-bkg__right {
+  position: absolute;
+  top: 90px;
+  left: 30%;
+  z-index: -1;
+
+  width: 989px;
+  height: 440px;
+
+  background: url("../assets/images/image138.png") no-repeat center;
+  background-size: cover;
+  transform: rotate(180deg);
 }

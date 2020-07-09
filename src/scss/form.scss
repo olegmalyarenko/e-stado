@@ -1,0 +1,32 @@
+.form {
+  width: 962px;
+  height: 490px;
+  margin: 42px auto;
+
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.2);
+}
+.leftside-bkg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+
+  width: 550px;
+  height: 450px;
+
+  background: url("../assets/images/kisspng-dairy-cattle-miglioranza-s-r-l-calf-beef-cattle-dairy-cattle-5b0dce65346ed5-1\ 4.png") no-repeat center;
+  background-size: cover;
+}
+.range {
+  box-sizing: border-box;
+  width: 944px;
+  height: 76px;
+  margin: 0 auto;
+  padding-top: 10px;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.06);
+}
