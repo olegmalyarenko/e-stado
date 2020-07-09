@@ -1,0 +1,70 @@
+
+
+.adventages-text {
+  width: 269px;
+  margin: 0 auto;
+  margin-top: 74px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: Gilroy;
+  text-align: center;
+  color: #242424;
+}
+.adventages-title {
+  width: 413px;
+  height: 68px;
+  margin: 0 auto;
+  margin-top: 12px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: Gilroy;
+  text-align: center;
+  color: #242424;
+  span {
+    font-style: bold;
+    font-weight: 1500;
+    color: green;
+  }
+}
+.adventages-content {
+  z-index: 2;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 26px;
+}
+.adventage {
+  display: flex;
+  align-items: center;
+}
+.adventage-text {
+  width: 180px;
+  height: 73px;
+  margin-left: 10px;
+  h2 {
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Gilroy;
+    color: #242424;
+  }
+  p {
+    margin-top: -10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Gilroy;
+    color: #242424;
+  }
+}
