@@ -3,7 +3,7 @@
   height: 490px;
   margin: 42px auto;*/
   position: absolute;
-  top: 424px;
+  top: 390px;
   left: 289px;
 
   width: 962px;
@@ -95,7 +95,8 @@
   box-shadow: inset 0 10px 20px rgba(255, 255, 255, 0.16);
 }
 
-.quiz {
+.first-quiz,
+.second-quiz {
   position: absolute;
   top: 90px;
   left: 8px;
@@ -112,7 +113,7 @@
     top: 33px;
     left: 426px;
 
-    width: 76px;
+    width: 80px;
     height: 17px;
 
     font-style: normal;
@@ -145,7 +146,7 @@
     }
   }
 }
-.first-quiz input {
+.quiz-form input {
   position: absolute;
   top: 180px;
   left: 350px;
@@ -158,6 +159,11 @@
   border-radius: 4px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.02);
 }
+.quiz-form input::placeholder {
+  padding-left: 20px;
+
+  font-family: Gilroy;
+}
 
 .next-button {
   position: absolute;
@@ -167,8 +173,67 @@
   width: 146px;
   height: 54.86px;
 
+  font-family: Gilroy;
+
   background: linear-gradient(98.61deg, #fbdb6a 5.19%, #ffeba3 49.97%, #fbdb6a 95.49%);
   border: none;
+  border-bottom: 4px solid #e8c240;
   border-radius: 52px;
   box-shadow: inset 0 0 26px rgba(255, 255, 255, 0.54);
+  cursor: pointer;
+}
+
+.left-bush__bkg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+
+  width: 550px;
+  height: 450px;
+  margin-left: 15%;
+
+  background: url("../assets/images/Bush2.png") no-repeat center;
+  background-size: cover;
+}
+.small-bush__bkg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+
+  width: 650px;
+  height: 650px;
+  margin-left: 15%;
+
+  background: url("../assets/images/smallbush.png") no-repeat center;
+  background-size: cover;
+}
+
+.first-quiz {
+  display: block;
+}
+
+.second-quiz {
+  display: none;
+}
+.half-green {
+  background: linear-gradient(0deg, rgba(80, 181, 32, 0.31), rgba(80, 181, 32, 0.31) 50%, white);
+  box-shadow: inset 0 10px 20px rgba(255, 255, 255, 0.16);
+}
+.top-bush__bkg {
+  position: absolute;
+  bottom: 100;
+  left: 600px;
+  z-index: 2;
+
+  width: 450px;
+  height: 400px;
+  margin-top: 45px;
+  margin-left: -20%;
+
+  background: url("../assets/images/smallbush.png") no-repeat center;
+  background-size: cover;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
