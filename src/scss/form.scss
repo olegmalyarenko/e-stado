@@ -145,3 +145,30 @@
     }
   }
 }
+.first-quiz input {
+  position: absolute;
+  top: 180px;
+  left: 350px;
+
+  width: 210px;
+  height: 61px;
+
+  background: #f4f4f4;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.02);
+}
+
+.next-button {
+  position: absolute;
+  bottom: -27px;
+  left: 390px;
+
+  width: 146px;
+  height: 54.86px;
+
+  background: linear-gradient(98.61deg, #fbdb6a 5.19%, #ffeba3 49.97%, #fbdb6a 95.49%);
+  border: none;
+  border-radius: 52px;
+  box-shadow: inset 0 0 26px rgba(255, 255, 255, 0.54);
+}
