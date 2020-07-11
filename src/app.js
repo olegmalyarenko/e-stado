@@ -1,16 +1,22 @@
 import "./scss/main.scss";
 
 const nextButton = document.querySelector('.next-button');
-const listItem = document.querySelectorAll('.list-item');
+const firstButton = document.getElementById('first-button');
+const secondButton = document.getElementById('second-button');
 
 
-nextButton.addEventListener('click', function(e) {
-    console.log('dsdfd');
-   document.querySelector(".first-quiz").style.display = "none";
-   document.querySelector(".second-quiz").style.display = "block";
-   document.querySelector(".range").classList.add('half-green');
-   document.querySelector(".middle-dot").classList.add('green-dot');
-   
+firstButton.addEventListener('click', function(e) {
+      document.querySelector(".first-quiz").style.display = "none";
+      document.querySelector(".second-quiz").style.display = "block";
+      document.querySelector(".range").classList.add('half-green');
+      document.querySelector(".middle-dot").classList.add('green-dot');  
+})
+
+secondButton.addEventListener('click', function(e) { 
+    document.querySelector(".second-quiz").style.display = "none";
+        document.querySelector(".third-quiz").style.display = "block";
+        document.querySelector(".range").classList.add('full-green');
+        document.querySelector(".right-dot").classList.add('green-dot');
 })
 
 
