@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel='stylesheet' type="text/css" href='dist/main.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>e-stado</title>
 </head>
 <body>
     <header>
@@ -107,17 +107,17 @@
             <h3 class="feedback-title">Куда прислать вам ответ?</h2>
 
             <div class="answer-row--top" >
-                <div class="answer-item">
+                <div class="answer-item phone-select">
                     <div class="answer-dot selected"></div>
                     <h3 class="answer-title">По телефону</h3>
                 </div>
 
-                <div class="answer-item">
+                <div class="answer-item" id="email-select">
                     <div class="answer-dot"></div>
                     <h3 class="answer-title">E-mail</h3>
                 </div>
 
-                <div class="answer-item">
+                <div class="answer-item phone-select">
                     <div class="answer-dot"></div>
                     <h3 class="answer-title">Viber</h3>
                 </div>
@@ -125,12 +125,12 @@
             </div>
 
             <div class="answer-row-bottom" >
-                <div class="answer-item">
+                <div class="answer-item phone-select">
                     <div class="answer-dot"></div>
                     <h3 class="answer-title">Telegram</h3>
                 </div>
 
-                <div class="answer-item">
+                <div class="answer-item phone-select">
                     <div class="answer-dot"></div>
                     <h3 class="answer-title">Whatsapp</h3>
                 </div>
@@ -138,8 +138,13 @@
             </div>
 
             <form class="phone-form">
-                <label class="phone-label" for="phone">Введите ваш номер телефона</label>
+                <label class="label" for="phone">Введите ваш номер телефона</label>
                 <input id="phone" type="text" placeholder="+375 (_ _)_ _ _-_ _-_ _" height="61">
+            </form>
+
+            <form class="email-form">
+                <label class="label" for="phone">Введите ваш e-mail</label>
+                <input id="phone" type="text" placeholder="simple@example.com" height="61">
             </form>
             
                 <button id="answer-button" class="answer-button">Отправить и получить ответ</button>
